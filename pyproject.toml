@@ -15,7 +15,7 @@ authors = [
 
 keywords = [
     "mirrornet",
-    "mirrorconv"
+    "mirrorconv",
     "low-memory",
     "operator-fusion",
     "tinyml",
@@ -25,7 +25,7 @@ keywords = [
     "edge-ai",
     "lightweight-cnn",
     "computer-vision",
-    "pytorch"
+    "pytorch",
 ]
 
 classifiers = [
@@ -37,13 +37,13 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: C++",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
-    "Topic :: Software Development :: Embedded Systems"
+    "Topic :: Software Development :: Embedded Systems",
 ]
 
 dependencies = [
     "torch>=2.0.0",
     "numpy>=1.21.0",
-    "MirrorConv @ git+https://github.com/chihsunchang1225-design/MirrorConv.git"
+    "MirrorConv @ git+https://github.com/chihsunchang1225-design/MirrorConv.git",
 ]
 
 [project.urls]
